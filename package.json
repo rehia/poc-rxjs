@@ -1,0 +1,33 @@
+{
+  "name": "poc-rxjs",
+  "version": "1.0.0",
+  "description": "a PoC to make RxJS and Socket.io work together",
+  "main": "index.js",
+  "dependencies": {
+    "restify": "^2.8.3",
+    "rx": "^2.3.19",
+    "socket.io": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rehia/poc-rxjs.git"
+  },
+  "keywords": [
+    "rxjs",
+    "socket.io",
+    "node",
+    "websocket",
+    "javascript",
+    "js"
+  ],
+  "author": "Jérôme Avoustin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rehia/poc-rxjs/issues"
+  },
+  "homepage": "https://github.com/rehia/poc-rxjs"
+}

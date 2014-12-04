@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <h1>RxJS and socket.io PoC</h1>
+
+        <div id="actor_div">
+            I am a
+            <select id="actor_type">
+                <option>...</option>
+                <option value="publisher">publisher</option>
+                <option value="listener">listener</option>
+            </select>
+        </div>
+        <div id="publishers_div" class="hidden">
+            <label for="publishers">I want to listen...</label>
+            <select id="publishers">
+                <option>...</option>
+            </select>
+        </div>
+        <div id="publisher_name_div" class="hidden">
+            <label for="publisher_name">My name is</label>
+            <input type="text" id="publisher_name" />
+            <button id="publisher_validate">ok</button>
+        </div>
+        <div id="textarea_div" class="hidden">
+            <textarea id="textarea"></textarea>
+        </div>
+
+        <div id="drawing_div" class="hidden">
+            <div id="canvas" style="height: 150px;width: 400px;background-color: lightgrey;text-align:center;display:block;">
+                <span id="sprite" style="border: solid 1px black;background-color: #ffffff;position: absolute;z-index: 50;">This is a sprite</span>
+            </div>
+        </div>
+
+        <div id="error">
+
+        </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/rx.all.js"></script>
+    <script src="js/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
